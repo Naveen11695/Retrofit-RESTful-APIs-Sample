@@ -1,6 +1,6 @@
-package com.ttn.retrofit_kotlin.helpers
+package com.local.retrofit_kotlin.helpers
 
-import com.ttn.retrofit_kotlin.models.Destination
+import com.local.retrofit_kotlin.models.Destination
 import java.util.*
 
 object SampleData {

@@ -1,4 +1,4 @@
-package com.ttn.retrofit_kotlin.helpers
+package com.local.retrofit_kotlin.helpers
 
 import android.content.Intent
 import android.view.LayoutInflater
@@ -7,9 +7,9 @@ import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 
-import com.ttn.retrofit_kotlin.activities.DestinationDetailActivity
-import com.ttn.retrofit_kotlin.models.Destination
-import com.ttn.retrofit_kotlin.R
+import com.local.retrofit_kotlin.activities.DestinationDetailActivity
+import com.local.retrofit_kotlin.models.Destination
+import com.local.retrofit_kotlin.R
 
 class DestinationAdapter(private val destinationList: List<Destination>) : RecyclerView.Adapter<DestinationAdapter.ViewHolder>() {
 

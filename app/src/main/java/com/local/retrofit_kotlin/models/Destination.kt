@@ -1,4 +1,4 @@
-package com.ttn.retrofit_kotlin.models
+package com.local.retrofit_kotlin.models
 
 data class Destination(
 	var id: Int = 0,

@@ -1,4 +1,4 @@
-package com.ttn.retrofit_kotlin.activities
+package com.local.retrofit_kotlin.activities
 
 import android.content.Intent
 import android.os.Bundle
@@ -6,11 +6,11 @@ import android.util.Log
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.widget.Toolbar
-import com.ttn.retrofit_kotlin.R
-import com.ttn.retrofit_kotlin.helpers.DestinationAdapter
-import com.ttn.retrofit_kotlin.models.Destination
-import com.ttn.retrofit_kotlin.services.DestinationService
-import com.ttn.retrofit_kotlin.services.ServiceBuilder
+import com.local.retrofit_kotlin.R
+import com.local.retrofit_kotlin.helpers.DestinationAdapter
+import com.local.retrofit_kotlin.models.Destination
+import com.local.retrofit_kotlin.services.DestinationService
+import com.local.retrofit_kotlin.services.ServiceBuilder
 import kotlinx.android.synthetic.main.activity_destiny_list.*
 import retrofit2.Call
 import retrofit2.Callback

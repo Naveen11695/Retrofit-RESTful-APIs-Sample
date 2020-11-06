@@ -1,4 +1,4 @@
-package com.ttn.retrofit_kotlin.services
+package com.local.retrofit_kotlin.services
 
 import android.annotation.SuppressLint
 import android.os.Build

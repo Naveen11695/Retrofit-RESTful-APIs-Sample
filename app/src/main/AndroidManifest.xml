@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.ttn.retrofit_kotlin">
+    package="com.local.retrofit_kotlin">
 
     <uses-permission android:name="android.permission.INTERNET" />
 
@@ -15,32 +15,32 @@
         android:theme="@style/AppTheme"
         tools:targetApi="n">
         <activity
-            android:name="com.ttn.retrofit_kotlin.activities.DestinationListActivity"
+            android:name="com.local.retrofit_kotlin.activities.DestinationListActivity"
             android:label="Destination List"
             android:theme="@style/AppTheme.NoActionBar" />
 
         <activity
-            android:name="com.ttn.retrofit_kotlin.activities.DestinationDetailActivity"
+            android:name="com.local.retrofit_kotlin.activities.DestinationDetailActivity"
             android:label="Destination Detail"
-            android:parentActivityName="com.ttn.retrofit_kotlin.activities.DestinationListActivity"
+            android:parentActivityName="com.local.retrofit_kotlin.activities.DestinationListActivity"
             android:theme="@style/AppTheme.NoActionBar">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.ttn.retrofit_kotlin.activities.DestinationListActivity" />
+                android:value="com.local.retrofit_kotlin.activities.DestinationListActivity" />
         </activity>
 
         <activity
-            android:name="com.ttn.retrofit_kotlin.activities.DestinationCreateActivity"
+            android:name="com.local.retrofit_kotlin.activities.DestinationCreateActivity"
             android:label="New Destination"
-            android:parentActivityName="com.ttn.retrofit_kotlin.activities.DestinationListActivity"
+            android:parentActivityName="com.local.retrofit_kotlin.activities.DestinationListActivity"
             android:theme="@style/AppTheme.NoActionBar">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.ttn.retrofit_kotlin.activities.DestinationListActivity" />
+                android:value="com.local.retrofit_kotlin.activities.DestinationListActivity" />
         </activity>
 
         <activity
-            android:name="com.ttn.retrofit_kotlin.activities.WelcomeActivity"
+            android:name="com.local.retrofit_kotlin.activities.WelcomeActivity"
             android:label="GloboFly"
             android:theme="@style/AppTheme.NoActionBar">
 

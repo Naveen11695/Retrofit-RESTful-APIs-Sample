@@ -1,4 +1,4 @@
-package com.ttn.retrofit_kotlin
+package com.local.retrofit_kotlin
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4
@@ -19,6 +19,6 @@ class ExampleInstrumentedTest {
     fun useAppContext() {
         // Context of the app under test.
         val appContext = InstrumentationRegistry.getInstrumentation().targetContext
-        assertEquals("com.ttn.retrofit_kotlin", appContext.packageName)
+        assertEquals("com.local.retrofit_kotlin", appContext.packageName)
     }
 }

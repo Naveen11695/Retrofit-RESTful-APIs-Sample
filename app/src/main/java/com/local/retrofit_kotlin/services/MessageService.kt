@@ -1,4 +1,4 @@
-package com.ttn.retrofit_kotlin.services
+package com.local.retrofit_kotlin.services
 
 import retrofit2.Call
 import retrofit2.http.GET

@@ -1,4 +1,4 @@
-package com.ttn.retrofit_kotlin
+package com.local.retrofit_kotlin
 
 import org.junit.Test
 

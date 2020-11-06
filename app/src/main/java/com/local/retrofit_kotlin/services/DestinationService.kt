@@ -1,6 +1,6 @@
-package com.ttn.retrofit_kotlin.services
+package com.local.retrofit_kotlin.services
 
-import com.ttn.retrofit_kotlin.models.Destination
+import com.local.retrofit_kotlin.models.Destination
 import retrofit2.Call
 import retrofit2.http.*
 
